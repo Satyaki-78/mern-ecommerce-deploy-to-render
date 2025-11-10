@@ -85,6 +85,8 @@ function HeaderRightContent() {
   }, [dispatch])
 
   // console.log(cartItems, 'cartItems-header.jsx');
+  console.log("User in HeaderRightContent:", user);
+
 
   return <div className="flex lg:items-center lg:flex-row flex-col gap-4">
     <Sheet open={openCartSheet} onOpenChange={() => setOpenCartSheet(false)} >
